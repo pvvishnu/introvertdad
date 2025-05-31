@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vishnu's Photography</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-text" data-aos="fade-up">
+      <h1>Vishnu Prasad</h1>
+      <p>Capturing the world through my lens</p>
+    </div>
+  </header>
+
+  <section class="gallery">
+    <h2 data-aos="fade-up">My Work</h2>
+    <div class="photo-grid">
+      <img src="images/photo1.jpg" alt="Photo 1" data-aos="zoom-in" data-aos-delay="100" />
+      <img src="images/photo2.jpg" alt="Photo 2" data-aos="zoom-in" data-aos-delay="200" />
+      <img src="images/photo3.jpg" alt="Photo 3" data-aos="zoom-in" data-aos-delay="300" />
+    </div>
+  </section>
+
+  <footer data-aos="fade-up">
+    <p>© 2025 Vishnu Prasad | <a href="mailto:your@email.com">Contact Me</a></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+</body>
+</html>
